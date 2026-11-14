@@ -1,13 +1,13 @@
-b<!DOCTYPE html>
+<!DOCTYPE html>
 <!--
-  Author: YOUR NAME
+  Author: Tre Morse
   GU username: YOUR-GU-USERNAME
   Course: BMIS 235 - HTML-2
 -->
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="author" content="YOUR NAME">
+<meta name="author" content="Tre Morse">
 
 <!-- this is the title that shows up on the tab of a web browser -->
 <title>Tre's HTML Project</title>
@@ -100,7 +100,7 @@ ul {
 <!-- 3. Paste it on the empty line below the heading.             -->
 <!-- 4. Change the heading to say what it is.                     -->
 <section id="embed-block">
-<h2>My embed</h2>
+<h2>Map of Walla Walla, WA</h2>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d88583.628866882!2d-118.41081681939548!3d46.06628734407549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a2154ba0d0f73b%3A0x12c4afcfe71db1d4!2sWalla%20Walla%2C%20WA%2099362!5e0!3m2!1sen!2sus!4v1794624359078!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </section>
 
@@ -122,10 +122,10 @@ ul {
     var pageColor  = dark ? darkColor  : lightColor;
     var blockColor = dark ? lightColor : darkColor;
     document.body.style.backgroundColor = pageColor;
-    document.body.style.color = dark ? "white" : "black";
+    document.body.style.color = "white";
     var block = document.getElementById("embed-block");
     block.style.backgroundColor = blockColor;
-    block.style.color = dark ? "black" : "white";
+    block.style.color = "white";
   }
 
   // 4. When the button is clicked: flip the mode, then repaint
